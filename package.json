@@ -1,0 +1,21 @@
+{
+  "name": "folio-invoice-studio",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Full-stack customizable invoice editor with Vercel Blob and Gmail SMTP",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "dev": "vercel dev",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "@vercel/blob": "^2.0.0",
+    "nodemailer": "^7.0.0"
+  },
+  "devDependencies": {
+    "vercel": "^48.0.0"
+  }
+}
